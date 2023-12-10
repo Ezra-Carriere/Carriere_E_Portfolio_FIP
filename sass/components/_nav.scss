@@ -12,3 +12,16 @@
     text-decoration: none;
     margin: 0 10px;
 }
+
+@media screen and (min-width: 1200px) {
+
+    #navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Avenir;
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+}
+

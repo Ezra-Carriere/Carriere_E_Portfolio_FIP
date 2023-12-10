@@ -1,0 +1,35 @@
+.gallery-img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.gallery-item {
+    position: relative;
+}
+
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+    width: 100%;
+    color: white;
+    background-color: #6A4099;
+    display: none;
+}
+
+.gallery-overlay a {
+    text-decoration: none;
+    font-family: Avenir;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.gallery-item:hover .gallery-overlay {
+    display: block;
+}
+
+#video-con {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
