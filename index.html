@@ -7,35 +7,59 @@
     <title>Ezra Carriere Portfolio</title>
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <script defer src="main.js"></script>
 </head>
 
 <body>
-    <header id="header-con" class="grid-con">
+    <header id="header-con" class="hidden grid-con">
         <img src="images/PortfolioLogo.svg" id="header-logo" class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3">
         <nav id="navbar" class="grid-con">
-             <a href="#gallery-con">Gallery</a>
-             <a href="#about-con">About</a>
+             <a href="#gallery-con" class="m-col-start-10 m-col-end-10 l-col-start-10 l-col-end-10">Gallery</a>
+             <a href="#about-con" class="m-col-start-12 m-col-end-12 l-col-start-12 l-col-end-12">About</a>
         </nav>
     </header>
 
     <container id="hero">
-    <div id="hero-con" class="grid-con">
+    <div id="hero-con" class="hidden grid-con">
         <h1 id="hero-name" class="col-span-full m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-1">My Name is<br>Ezra Carriere</h1>
         <h1 id="hero-designer" class="col-span-full m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-5">DESIGNER</h1>
         <img src="images/Black&WhiteMe2.png" id="hero-img" class="col-span-full m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13">
     </div>
 </container>
 
-    <div id="gallery-con" class="grid-con">
-    <img src="images/BillyBeerGallery.png" class="gallery-img col-span-full m-col-span-4 l-col-span-4">
-    <img src="images/LMSGallery.png" class="gallery-img col-span-full m-col-span-4 l-col-span-4">
-    <img src="images/QuatroGallery.png" class="gallery-img col-span-full m-col-span-4 l-col-span-4">
-    <img src="images/QuenchGallery.png" class="gallery-img col-span-full m-col-span-4 l-col-span-4">
-    <img src="images/Render1Gallery.png" class="gallery-img col-span-full m-col-span-4 l-col-span-4">
-    <img src="images/FanshaweSGGallery.png" class="gallery-img col-span-full m-col-span-4 l-col-span-4">
+    <div id="gallery-con" class="hidden grid-con">
+        <div class="gallery-item col-span-full m-col-span-4 l-col-span-4">
+    <img src="images/BillyBeerGallery.png" class="gallery-img">
+            <div class="gallery-overlay"><a href="casestudy.html">Billy Beer Website</a></div>
+        </div>
+
+        <div class="gallery-item col-span-full m-col-span-4 l-col-span-4">
+    <img src="images/LMSGallery.png" class="gallery-img">
+    <div class="gallery-overlay"><a href="#">Manga Shop</a></div>
+        </div>
+
+        <div class="gallery-item col-span-full m-col-span-4 l-col-span-4">
+    <img src="images/QuatroGallery.png" class="gallery-img">
+    <div class="gallery-overlay"><a href="#">Quatro Rebrand</a></div>
 </div>
 
-<div id="about-con" class="grid-con">
+<div class="gallery-item col-span-full m-col-span-4 l-col-span-4">
+    <img src="images/QuenchGallery.png" class="gallery-img col-span-full m-col-span-4 l-col-span-4">
+    <div class="gallery-overlay"><a href="#">Quench Design</a></div>
+</div>
+
+<div class="gallery-item col-span-full m-col-span-4 l-col-span-4">
+    <img src="images/Render1Gallery.png" class="gallery-img col-span-full m-col-span-4 l-col-span-4">
+    <div class="gallery-overlay"><a href="#">Hotel Room Design</a></div>
+</div>
+
+<div class="gallery-item col-span-full m-col-span-4 l-col-span-4">
+    <img src="images/FanshaweSGGallery.png" class="gallery-img col-span-full m-col-span-4 l-col-span-4">
+    <div class="gallery-overlay"><a href="#">Fanshawe Sytleguide</a></div>
+</div>
+</div>
+
+<div id="about-con" class="hidden grid-con">
     <h1 id="about-title" class="col-span-full">About Me</h1>
     <p id="about-text" class="col-span-full"> My name is Ezra Carriere. I am a
         student in the Fanshawe College,
@@ -71,13 +95,13 @@
         life now.</p>
 </div>
 
-<div id="social-con" class="grid-con">
+<div id="social-con" class="hidden grid-con">
     <h1 class="social-text col-span-full m-col-span-4 l-col-span-4"><a href="https://www.linkedin.com/in/ezra-carriere-835830227/">Linked In</a></h1>
     <h1 class="social-text col-span-full m-col-span-4 l-col-span-4"><a href="#">Resume</a></h1>
     <h1 class="social-text col-span-full m-col-span-4 l-col-span-4"><a href="https://github.com/Ezra-Carriere">GitHub</a></h1>
 </div>
 
-<footer id="footer-con" class="grid-con">
+<footer id="footer-con" class="hidden grid-con">
     <img src="images/PortfolioLogo.svg" id="footer-logo" class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3">
     <h1 class="footer-text col-span-full">519-933-2383</h1>
     <h1 class="footer-text col-span-full">ezrac2003@gmail.com</h1>
